@@ -10,7 +10,7 @@ class Plane
   end
   
   def land
-    fail 'already landed' if !flying?
+    fail 'already landed' unless flying?
     self.flying = false
   end
 
