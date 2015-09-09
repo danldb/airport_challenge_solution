@@ -1,8 +1,6 @@
-require_relative 'weather.rb'
-
 class Airport
 
-  def initialize(weather: Weather)
+  def initialize(weather:)
     @planes = []
     @weather = weather
   end

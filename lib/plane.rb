@@ -6,15 +6,17 @@ class Plane
 
   def take_off
     raise 'already flying' if flying?
-    @flying = true
+    self.flying = true
   end
   
   def land
     raise 'already landed' if !flying?
-    @flying = false
+    self.flying = false
   end
 
   private
+
+  attr_writer :flying
 
   def flying?
     @flying 
