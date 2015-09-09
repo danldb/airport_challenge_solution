@@ -1,11 +1,11 @@
 class Airport
 
-  def initialize(weather:)
+  def initialize weather
     @planes = []
     @weather = weather
   end
 
-  def land(plane)
+  def land plane
     fail 'too stormy' if weather.stormy?
     planes << plane
   end
