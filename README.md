@@ -1,3 +1,5 @@
+![travis-ci](https://travis-ci.org/danldb/airport_challenge_solution.svg) [![Coverage Status](https://coveralls.io/repos/danldb/airport_challenge_solution/badge.svg?branch=master&service=github)](https://coveralls.io/github/danldb/airport_challenge_solution?branch=master)
+
 Airport Challenge
 =================
 

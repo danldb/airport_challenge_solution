@@ -5,12 +5,12 @@ class Plane
   end
 
   def take_off
-    raise 'already flying' if flying?
+    fail 'already flying' if flying?
     self.flying = true
   end
   
   def land
-    raise 'already landed' if !flying?
+    fail 'already landed' unless flying?
     self.flying = false
   end
 
