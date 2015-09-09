@@ -19,7 +19,7 @@ describe Airport do
     expect(subject.launch).to be plane
   end
 
-  it 'will raise an error if there is no plane' do
+  it 'will raise an error if there is no plane to launch' do
     expect{subject.launch}.to raise_error 'no planes' 
   end
 
