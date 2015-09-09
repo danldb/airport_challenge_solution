@@ -1,3 +1,5 @@
+![travis-ci](https://travis-ci.org/danldb/airport_challenge_solution.svg)
+
 Airport Challenge
 =================
 
