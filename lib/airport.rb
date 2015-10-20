@@ -7,13 +7,15 @@ class Airport
 
   def land plane
     fail 'too stormy' if weather.stormy?
+    plane.land
     planes << plane
   end
 
   def launch
     fail 'too stormy' if weather.stormy?
     fail 'no planes' if planes.empty?
-    planes.pop
+    plane = planes.pop
+    plane.take_off
   end
 
   private
